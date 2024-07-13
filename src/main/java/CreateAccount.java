@@ -2,10 +2,12 @@ import java.util.Scanner;
 
 public class CreateAccount {
 
-    Scanner sc = new Scanner(System.in);
-    Menu menu = new Menu();
+
 
     public void createAccount() {
+        Scanner sc = new Scanner(System.in);
+        Menu menu = new Menu();
+
         System.out.println("Enter Details: ");
         System.out.print("Enter Name : ");
         String name = sc.next();
